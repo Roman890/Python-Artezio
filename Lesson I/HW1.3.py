@@ -8,7 +8,7 @@
 # Пример строки : 'w'
 # Ожидаемый Результат: Пустая Строка
 
-string = input("Введите строку: ");
+string = input("Введите строку: ")
 if(len(string)>1):
     string = string[:2] + string[-2:]
     print(string)

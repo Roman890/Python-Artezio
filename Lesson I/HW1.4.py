@@ -4,7 +4,6 @@
 # Примерный список: ['abc', 'xyz', 'aba', '1221']
 # Ожидаемый Результат: 2
 
-
 word_list = ['abc', 'xyz', 'aba', '1221']
 count_word = 0
 for i in word_list:
