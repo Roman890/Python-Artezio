@@ -20,19 +20,21 @@ def function(*args, **kwargs):
     new_sum = 0
     new_multiple = 1
     for i in args:
+        if i == list(args):
+            print("Есть циклическая ссылка")
+            return None
         if isinstance(i, (list, tuple)):
             result = function(*i)
             if result is not None:
                 new_sum += result[0]
                 new_multiple *= result[1]
+            else:
+                return None
         else:
             new_sum += i
             if i != 0:
                 new_multiple *= i
     for j, k in kwargs.items():
-        if j in k:
-            print("Есть циклическая ссылка")
-            return None
         if isinstance(k, (list, tuple)):
             result = function(*k)
             if result is not None:
@@ -45,5 +47,12 @@ def function(*args, **kwargs):
     return new_sum, new_multiple
 
 
+# пример без циклической ссылки
 print(function(1, 2, [3, 4, (5, 6, 0)],
+               a=(10, 11), b=(3, 4, [5, 6, [7, 8], []])))
+
+# пример с циклической ссылкой
+c = [1, 2]
+c.append(c)
+print(function(1, 2, [3, 4, (5, 6, 0)], c,
                a=(10, 11), b=(3, 4, [5, 6, [7, 8], []])))
