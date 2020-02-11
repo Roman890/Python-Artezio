@@ -4,7 +4,7 @@
 """
 
 
-class Complex(object):
+class Complex:
     """Класс для комплексного числа"""
     def __init__(self, real_part=0, imaginary_part=0):
         self.real_part = real_part

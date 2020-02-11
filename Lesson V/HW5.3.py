@@ -5,7 +5,7 @@
 """
 
 
-class Observable(object):
+class Observable:
     """родительский класс"""
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
