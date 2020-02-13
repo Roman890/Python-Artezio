@@ -7,6 +7,5 @@
 
 key = [1, 2, 3, 4, 6, 7, 9]
 value = ['a', 'b', 'c', 'd']
-dictionary = {item: item_2 for id, item in enumerate(key) for id_2, item_2 in enumerate(value) if id == id_2 }
-
+dictionary = {key[i]: value[i] if i < len(value) else None for i in range(len(key))}
 print(dictionary)
