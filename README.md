@@ -1,4 +1,5 @@
 # Python-Artezio
+### Ссылка на google диск: https://drive.google.com/drive/folders/1hnvp_sHZM_kPV3Was4QoPdBr6UMEa9kB
 | Задание | Статус | Проверено | Замечания |
 |----------------|:---------:|----------------|----------------|
 | Лекция 1 - ТИПЫ ДАННЫХ |
