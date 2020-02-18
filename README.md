@@ -41,7 +41,7 @@
 | Задание 1 |  :white_check_mark:  |
 | Задание 2 |  :black_square_button:  |
 | Задание 3 |  :white_check_mark:  |
-| Задание 4 |  :black_square_button:  |
+| Задание 4 |  :white_check_mark:  |
 | Лекция 8 - РЕГУЛЯРНЫЕ ВЫРАЖЕНИЯ, HTTP |
 | Задание 1 |  :white_check_mark:  |
 | Задание 2 |  :white_check_mark:  |
