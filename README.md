@@ -53,5 +53,6 @@
 | Задание 1 |  :white_check_mark:  |
 | Задание 2 |  :white_check_mark:  |
 | Задание 3 |  :white_check_mark:  |
-
-
+| ФИНАЛЬНЫЙ ПРОЕКТ |
+| Требование 1 |  :black_square_button:  |
+| Требование 2 |  :black_square_button:  |
